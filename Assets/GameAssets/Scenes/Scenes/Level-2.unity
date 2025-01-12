@@ -214,7 +214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.34375003, y: 0.5245423}
   m_AnchorMax: {x: 0.6987501, y: 0.76022345}
-  m_AnchoredPosition: {x: -6, y: -1}
+  m_AnchoredPosition: {x: 7, y: -7}
   m_SizeDelta: {x: 134.64319, y: 48.447403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &108093528
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRESS X ON SWITCH THEN WATCH.
+  m_text: '"X" TUSUNA BAS VE IZLE'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 12042e29a08be0447a85c7384b223f81, type: 2}
   m_sharedMaterial: {fileID: 8481926719366505130, guid: 12042e29a08be0447a85c7384b223f81, type: 2}
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

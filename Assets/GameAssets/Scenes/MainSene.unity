@@ -527,6 +527,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c4e294ba912e8498a06a1bd6ca3dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  isPaused: 0
+  volumeText: {fileID: 0}
+  optionsText: {fileID: 0}
+  playText: {fileID: 0}
+  creditsText: {fileID: 0}
+  target: {fileID: 0}
+  target2: {fileID: 0}
+  target3: {fileID: 0}
+  target4: {fileID: 0}
 --- !u!114 &260985869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8789,7 +8799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0748055c8ef563a4d825b832be4ee052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnObject: 0
   hasPlayerKey: 0
   worked: 0
   transition: {fileID: 2475569373897585207}

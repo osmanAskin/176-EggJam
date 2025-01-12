@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using DG.Tweening;
 using MoreMountains.Feedbacks;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public GameObject gfx;
     
     //dash
-    private bool canDash = true;
+    private bool canDash = false;
     private bool isDashing;
 
     [SerializeField] private Rigidbody2D rb;
@@ -76,6 +77,11 @@ public class PlayerMovement : MonoBehaviour
         _playerExplosion = FindObjectOfType<PlayerExplosion>();
         _cameraShake = FindObjectOfType<CameraShake>();
         _audioManager = FindObjectOfType<AudioManager>();
+
+        if (SceneManager.GetActiveScene().buildIndex >= 3)
+        {
+            canDash = true;
+        }
     }
 
     private void Update()
