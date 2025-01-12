@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3292103779772484294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 927412067870062945}
+  - component: {fileID: 7135040862918213120}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927412067870062945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292103779772484294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5644014, y: 6.312092, z: 19.533201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7135040862918213120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292103779772484294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9894e80928813fc4caadb497f59a23d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - type: 0
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - type: 1
+    clip: {fileID: 8300000, guid: 6d6898a120c6a274cbb84a1d668a7660, type: 3}
+    volume: 0.9
+    pitch: 0.9
+    source: {fileID: 0}
+  - type: 5
+    clip: {fileID: 8300000, guid: 2fc17ff5a1d0046488a824463f191fa4, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - type: 2
+    clip: {fileID: 8300000, guid: 5422905850d68244d968fd00bbbddf02, type: 3}
+    volume: 0.8
+    pitch: 1.2
+    source: {fileID: 0}
+  - type: 3
+    clip: {fileID: 8300000, guid: edc04562966313149ade42306ff07888, type: 3}
+    volume: 0.3
+    pitch: 1.85
+    source: {fileID: 0}
+  - type: 4
+    clip: {fileID: 8300000, guid: 23268511122c6b54c9cafaa7e32eb6d6, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}

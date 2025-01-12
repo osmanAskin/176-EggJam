@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3912211245745779757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3156849446623686392}
+  - component: {fileID: 8283397575943364122}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3156849446623686392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912211245745779757}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8283397575943364122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912211245745779757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9cc444f18b23a4cb4e3cb2e7bd1099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - type: 0
+    clip: {fileID: 8300000, guid: 87af712f4cf40bd49b1ca7b055ea4b04, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - type: 1
+    clip: {fileID: 8300000, guid: de2313ed57806cb488289c309186d914, type: 3}
+    volume: 0.9
+    pitch: 0.9
+    source: {fileID: 0}
+  - type: 2
+    clip: {fileID: 8300000, guid: fb928a2b5db696747ad54a0e9d5c7a9a, type: 3}
+    volume: 0.6
+    pitch: 0.9
+    source: {fileID: 0}
+  - type: 4
+    clip: {fileID: 8300000, guid: 1d41d0b18d11ba94383cef6bf0b8ed81, type: 3}
+    volume: 0.3
+    pitch: 1.65
+    source: {fileID: 0}
+  - type: 3
+    clip: {fileID: 8300000, guid: 61afd3afa2a8560489cc4b7ebc6e3890, type: 3}
+    volume: 0.8
+    pitch: 1.2
+    source: {fileID: 0}
